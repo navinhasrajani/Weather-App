@@ -5,7 +5,7 @@ import requests
 
 # Create your views here.
 def index(request):
-    url='https://api.openweathermap.org/data/2.5/weather?q={}&appid=05e3e68944ef640c36d4dd2413e1264a&units=metric'
+    url='https://api.openweathermap.org/data/2.5/weather?q={}&appid=<YOUR API KEY>&units=metric'
     # city="Ahmedabad"
 
     if request.method=="POST":
